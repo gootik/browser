@@ -38,7 +38,7 @@ const KeyboardEvent = @import("keyboard_event.zig").KeyboardEvent;
 const ErrorEvent = @import("../html/error_event.zig").ErrorEvent;
 const MessageEvent = @import("../dom/MessageChannel.zig").MessageEvent;
 const PopStateEvent = @import("../html/History.zig").PopStateEvent;
-const NavigationCurrentEntryChangeEvent = @import("../html/Navigation.zig").NavigationCurrentEntryChangeEvent;
+const NavigationCurrentEntryChangeEvent = @import("../navigation/navigation.zig").NavigationCurrentEntryChangeEvent;
 
 // Event interfaces
 pub const Interfaces = .{
